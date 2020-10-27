@@ -1,0 +1,3 @@
+LTS means Long Term Support which will remain stable over the next three years.
+2018.4 is the best version for this project because that is what this project was built on.
+I chose not to install Microsoft Visual Studio because we are using Rider for this class.

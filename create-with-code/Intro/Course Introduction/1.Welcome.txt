@@ -1,0 +1,4 @@
+Unit 1 - Introduction (Create with Code)
+Teaching us how to create with code with the use of C# and Unity Game engine.
+This course uses five modules with 5 separate prototypes, challenges, and quizzes.
+ 

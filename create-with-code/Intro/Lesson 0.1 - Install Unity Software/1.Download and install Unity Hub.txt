@@ -1,0 +1,6 @@
+Unity Hub is the best way to install and manage different versions of Unity.
+Unity Hub is the manager similar to Adobe CC.
+For this course we use Unity Version 18.4
+The tabs are Projects, Learn, and Installs.
+These buttons are basically self explanatory.
+Just the basic setup of software.
