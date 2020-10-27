@@ -1090,6 +1090,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1627445697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1627445699}
+  - component: {fileID: 1627445698}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1627445698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627445697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6dc1df83dd9a04db2539db52928cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 5484400950991100207, guid: 32f4e0f922a4fcb4e80ab9ce478286ef, type: 3}
+  - {fileID: 9101131530125907119, guid: 746dc91cc63ae4c4389e206b5d947fd0, type: 3}
+  - {fileID: 2786187417141009285, guid: 84138c717f50125428bda62fc5968c24, type: 3}
+  - {fileID: 4732304767780374013, guid: f8ead0bcf912d3c4c85a682dc2e69240, type: 3}
+  - {fileID: 564574475744393058, guid: 8e8e633cd8864ad4e92594b44602ba65, type: 3}
+  - {fileID: 3926205232586312773, guid: 6a2ec9cf41ad47343981e6ac96392be1, type: 3}
+  - {fileID: 6493769112947429213, guid: 88a49258edeef76439da2dff1c9487c1, type: 3}
+  - {fileID: 3092939652705761449, guid: 622df8edea00b6d4f883e9c3d15fd3c4, type: 3}
+--- !u!4 &1627445699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627445697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.263047, y: 1.5162487, z: 3.622241}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1671046586
 PrefabInstance:
   m_ObjectHideFlags: 0

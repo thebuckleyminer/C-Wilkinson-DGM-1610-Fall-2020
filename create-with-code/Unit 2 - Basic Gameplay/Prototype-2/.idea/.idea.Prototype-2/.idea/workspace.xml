@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +86,7 @@
       <updated>1603830214946</updated>
       <workItem from="1603830223571" duration="1309000" />
       <workItem from="1603834131045" duration="2644000" />
+      <workItem from="1603837499818" duration="1130000" />
     </task>
     <servers />
   </component>
@@ -104,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
