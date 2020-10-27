@@ -1,0 +1,6 @@
+Unit 2 - Introduction (Create With Code)
+
+-Create with Code Unit 2
+-This unit is creating a top-down prototype
+-We will generate random obstacles in this game
+-Player will launch food 
