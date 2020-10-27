@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 5.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Private Variables
+    private float turnSpeed = 30.0f;
+    private float speed = 25.0f;
+    private float horizontalInput;
+    private float forwardInput;
 
     // Update is called once per frame
     void Update()
     {
-        //Forward
-        //transform.Translate(0, 0, 1); //Old Code uses coordinates instead of a Vector3
-        transform.Translate(Time.deltaTime * speed * Vector3.forward);
+        //This gets the player input
+        horizontalInput = Input.GetAxis("Horizontal");
+        forwardInput = Input.GetAxis("Vertical");
+        //This is the forward code
+        transform.Translate(Time.deltaTime * speed * forwardInput * Vector3.forward);
+        //This is the turning code
+        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
     }
 }
