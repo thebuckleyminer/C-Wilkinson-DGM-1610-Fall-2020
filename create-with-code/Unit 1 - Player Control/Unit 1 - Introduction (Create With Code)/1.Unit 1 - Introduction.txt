@@ -1,0 +1,6 @@
+Welcoming to the very first unit of this course.
+We will be making a driving simulator prototype where the user can steer a vehicle down a road and either avoid or hit objects.
+The Three main learning objectives I understand from this video are:
+1)	Player Control.
+2)	Input.
+3)	Translate the input to action.
