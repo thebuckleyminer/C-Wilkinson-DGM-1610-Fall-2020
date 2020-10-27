@@ -20,9 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a0c9747-543a-4b23-92fd-ba5d295522e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Chick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Chick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Chicken_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Chicken_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Chicken_White.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Chicken_White.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Cow_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Cow_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Cow_White.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Cow_White.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Horse_Black.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Horse_Black.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Horse_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Horse_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animal_Rooster_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animal_Rooster_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Banana Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Banana Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +47,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +101,7 @@
       <updated>1603830214946</updated>
       <workItem from="1603830223571" duration="1309000" />
       <workItem from="1603834131045" duration="2644000" />
-      <workItem from="1603837499818" duration="1130000" />
+      <workItem from="1603837499818" duration="2824000" />
     </task>
     <servers />
   </component>
