@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public float speed = 5.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,6 @@ public class PlayerController : MonoBehaviour
     {
         //Forward
         //transform.Translate(0, 0, 1); //Old Code uses coordinates instead of a Vector3
-        transform.Translate(Time.deltaTime * 20 * Vector3.forward);
+        transform.Translate(Time.deltaTime * speed * Vector3.forward);
     }
 }
