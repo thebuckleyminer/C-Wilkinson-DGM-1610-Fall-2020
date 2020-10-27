@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d66d9bda-6dbc-443f-9c1c-9d536636d1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 1.unity" afterDir="false" />
+    <list default="true" id="3457fda9-270b-42d6-808f-43df4f480cc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Prototype-1/.idea/.idea.Prototype-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype-1/.idea/.idea.Prototype-1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +31,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Course Library/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Challenge 1/Scripts/PropellSpin.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Course Library/Scripts/FollowPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Course Library/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PlayerControllerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/FollowPlayerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PropellSpin.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1jTL2pTAXETiAuclOiDkqyIHZnf" />
+  <component name="ProjectId" id="1jTTTB1uQCpO6PbCFDcwyvCJgZi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -77,12 +76,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d66d9bda-6dbc-443f-9c1c-9d536636d1c9" name="Default Changelist" comment="" />
-      <created>1603822935374</created>
+      <changelist id="3457fda9-270b-42d6-808f-43df4f480cc7" name="Default Changelist" comment="" />
+      <created>1603827090847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603822935374</updated>
-      <workItem from="1603822944878" duration="4106000" />
+      <updated>1603827090847</updated>
+      <workItem from="1603827094236" duration="542000" />
     </task>
     <servers />
   </component>
