@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b690f9-6bb1-464d-975b-6e5e388ab95d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Unit 3 - Sound and Effects/Challenge 3/.idea/.idea.Challenge 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit 3 - Sound and Effects/Challenge 3/.idea/.idea.Challenge 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-4/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Powerup Indicators/SelectionRing_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Powerup Indicators/SelectionRing_02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Scripts/SpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 4.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +88,8 @@
       <updated>1603858345745</updated>
       <workItem from="1603858355084" duration="2649000" />
       <workItem from="1603897632362" duration="3466000" />
+      <workItem from="1603902460501" duration="2173000" />
+      <workItem from="1603905579488" duration="789000" />
     </task>
     <servers />
   </component>
