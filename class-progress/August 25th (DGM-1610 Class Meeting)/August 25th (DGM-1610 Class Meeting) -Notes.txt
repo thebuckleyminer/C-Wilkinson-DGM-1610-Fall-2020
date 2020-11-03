@@ -1,0 +1,22 @@
+August 25th (DGM-1610 Class Meeting)
+
+This Semester the software we will be using:
+Using Unity Game Engine
+Using C#
+Using Git Repository
+Rider for our code editor
+
+Romrell Showed:
+How to download Rider, GitKracken, and Unity
+Talked about Create with Code
+
+GitKracken Setup:
+Init- First Repository
+Initialize with LFS
+Gitignore template = Unity
+Clone after init
+And Public
+
+Practice committing:
+Created the Weather.txt
+Committed the Weather with this commit [August 25th (DGM-1610 Class Meeting)]
