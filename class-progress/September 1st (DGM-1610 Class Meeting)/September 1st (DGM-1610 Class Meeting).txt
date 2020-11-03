@@ -1,0 +1,78 @@
+!!!Moved the Cyborg Shrimp Unity Project from the independent class folders and put it into it's own class-unity-projects folder!!!
+[I am hoping this will help with not having the max path problem when copying, as well as save space on the GitHub servers from copying it to a new class every time]
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Should have completed:
+- Unity Project inside of Repo by now
+In Class Recap:
+- Unity Hub and put the file in the location of the Git folder
+- The Unity Project should go in there
+- Open .gitignore in external file and change permissions if you are having problems
+- Workspace cleanup: Window-> Layout-> 2x3 
+- Then Window-> General-> Console-> Then add to bottom
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+What is on the calendar for today:
+- Classes
+- Conventions and Syntax
+- Scripts as Behaviors
+- Void Functions
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Today Romrell Taught us:
+----------------------------------
+Unity:
+- Delete old C# script
+- Add a new Scripts folder inside the Assets folder
+- Rules about C# files:
+	Camel Casing: No Spaces, Every first letter capitalized
+	Example: "MoverScript"
+Rider:
+- Scripting / Coding is not Math. It is English. .... "Coding is not math" ... "Only really awesome people like math"
+- In C# you end a sentence with a semicolon
+- The name of the class is the exact same name as the script. This is very important!
+- Class is really short for the name Classification or for Classifier; Which is an object
+- We are using something called Object Orient programming; That means we build little chunks of code in little scripts
+- If a word means something in English, it means the exact same thing in C#
+The following explains the code: (public class MoverScript : MonoBehaviour)
+- The word "public" means if someone is in public they are visible
+- The word "class" means classification of something or "a type of". (EX: a dog is a class of animal)
+- The name of the class should tell us kind of what it is doing
+- The ":" means that we are going to inheriting from something
+- Inheritance simply means that we are going to get something from a parent class
+- "MonoBehavior" means single behavior. MonoBehavior is a class.
+- So MoverScript is going to inherit attributes from MonoBehavior
+- The word "void" means nothing, or null. If this function is run it would return nothing.
+- The void also means that it is a function in C#
+- Start() and Update() are built in Functions in unity
+- A class is called a block of code... A class is a container
+- Code blocks use curly braces {	} to encapsulate the block
+- Functions are an object within a class which is an object
+- Debug.Log("Hello World!")
+- When we run the start method, it will run a function called log
+- Debug is a class and Log is a function within that class.
+- If you control+click on log it opens the log function inside the debug script
+- To add a cube, in the Hierarchy right click and click 3D object then click Cube
+- The components or behaviors are on the right under inspector
+- Dragging the script to the primitive adds the script as a component
+- Clicking the play button at the top starts the play mode, clicking it stops it
+- The cube object has transform components on it in the X,Y, and Z axis for Rotation, Position, and Scaling
+- transform.Translate(); Makes the object move by updating the position value
+- Floating point values have to have a f at the end... ex: 10.5f
+- To get the motion to be time based instead of frame based we times it by Time.deltaTime
+- Variables [public] [float] x ,y, z;
+- Input.GetAxis makes it possible to use controllers and arrow keys
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this class:
+- Copied the Cyborg Shrimp to today's class folder
+- Deleted Script he told us to delete (NumberData.cs)
+- Created a new Scripts folder inside the Assets folder
+- Added the MoverScript C# script
+- Created a 3D Cube
+- Added the MoverScript C# script to the 3D cube as a component
+- Added transform.Translate(); to move the cube
+- Used Time.deltaTime for time based movement
+- Created and implemented the X, Y, and Z public variables
+- Used the Input.GetAxis to use the keyboard and controller to move cube
+- Named the scene MovingShip and saved it to the scenes folder
