@@ -1,0 +1,64 @@
+August 27th (DGM-1610 Class Meeting)
+
+
+Should have completed:
+Downloaded: Unity, Jetbrains, and GitKracken
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Romrell Taught us:
+----------------------------------
+Git/GitHub/GitKracken:
+- Git is a Database
+- You can open git files in the folder
+- It is simply a database that lives in the folder on file system
+- What is cool about git is the version control so you can see progress and go back in time and get old files
+- In order to commit you must: 1)Stage a file, and 2) Write a message.
+- Pushing makes the orgin and master the same and uploads the files to GitHub
+----------------------------------
+LFS:
+- In prefrences if you go to LFS on the left click initiate LFS on this repo
+- Use the wildcard * with the extention of the files you want to be included on the LFS
+- For example (*.psd, *.jpg, *.png)
+----------------------------------
+Unity:
+- Open Unity with Unity Hub:
+- New dropdown menu
+- Select installed version
+- Select the 2D Project
+- Name the project Cyborg Shrimp
+- The location matters, make sure it is in the right Git Repo
+- You need to make sure that the Licence is loged in and it should work right
+----------------------------------
+.gitignore:
+- The Git Ignore file is used to skip items that are not necessary to be tracked in the Git Database because they will take up too much tracking room and they do not matter
+- Take the forward slash out of the front of:
+	[Ll]ibrary/ & [Tt]emp/ & [Oo]bj/ & [Bb]uild/ & [Bb]uilds/ & [Ll]ogs/ & [Mm]emoryCaptures/
+- Then I will need to manually add one more which is the: .idea/
+- Make sure you have write file to the file
+- You can right click and ignore files in the GitKracken un-staged files area
+----------------------------------
+Unity Workspace:
+- Game View, Scene View, Scenes, and Hierarchy
+- 2x3 is his preferred layout
+- Create the NumberData C# script
+- The naming convention is Capitoline first letter on words
+- Change external tools on Unity to Rider
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this class:
+- I initialized the LFS on my C-Wilkinson-DGM-1610-Fall-2020 Repo
+- I added with *.psd, and *.png to the LFS settings
+- Created a 2D Unity Game named Cyborg Shrimp in the Repo
+- Added the .idea/ to the .gitignore file
+- ***Since I initialized LFS there are a lot of changes because it is sending .png files from the Create with Code to the LFS
+- Created the NumberData C# Script in the Asset folder
+- Opened NumberData.cs in Rider
+- The name of the Class in the Script is the EXACT same as the name you created. If you change one, change both.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Expectations:
+- There should be four days of green commits per week (He would like closer to seven but the more the better)
+- "Commit to commit" 
+
+
+
