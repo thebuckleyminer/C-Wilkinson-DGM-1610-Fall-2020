@@ -1,0 +1,61 @@
+September 29th (DGM-1610 Class Meeting)
+Calendar items for today:
+    - Rigidbodies
+    - Scope
+    - And On Enable
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - We are going to temporarily create a new scene, so control n.
+    - Added ground plane and player cube.
+    - Added a rigidbody.
+    - Deleted cubes and added a sphere with a rigidbody.
+    - Made five clones of the sphere and changed all of them to have different rigidbody masses.
+    - Added cubes with rigidbodies to simulate the collisions and then added a constant force component to make them move upward.
+    - Added some torque to the cubes.
+    - Added some constant force in the downward direction to the spheres.
+    - Deleted all of the work we just did because: "we were just goofing off".
+    - Crated the new ApplyForces C# script.
+    - Added a new cube and applied the script to the cube.
+    - Got our first Rigidbody component variable in our script and named it rBody.
+    - Added the rigidbody in unity on the variable and then added a rBody.AddForce to the object.
+    - Changed the word start to OnMouseDown.
+    - Removed add forces script from the cube.
+    - Added an empty with a box collider with the xy size of 30.
+    - Named the cube Jumper and the empty MouseClick.
+    - Put the apply force onto the mouse click.
+    - Named the scene flappy bird.
+    - Added bound cubes for the high and low bounds and deleted the ground plane.
+    - Created a physics folder and a physics material renamed to bouncy.
+    - Added the bouncy material to the physics material slot in the character box collider.
+    - Made a moving wall as an obstacle. Added a rigidbody without gravity and put in a constant force towards the left of the screen.
+    - Created the prefabs folder.
+    - Made the wall a prefab.
+    - Created an instancer script.
+    - In the script wrote the code to instantiate the wall and then deleted the wall from the scene after checking to make sure there were no overrides.
+    - Created an empty WallInstancer and put the script on it.
+    - Created aIEnumerator with a while loop.
+    - Made a death empty object.
+    - Made destroyer script.
+    - Now the walls and players get destroyed when pushed into the destroyer.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Showed us that if create with code is giving a ton of errors you have to go to the package manager and reset to default.
+    - Showed us how to switch between 2D and 3D. Orthographic, vs perspective and toggle button in view-port.
+    - Rigidbodies are physics.
+    - Box colliders are not Rigidbodies but Rigidbodies use box colliders and physics.
+    - You can change the pass on the RigidBody component.
+    - Torque is rotational force.
+    - Since we know that the force can be applied to a rigidbody so we need to get a rigidbody component.
+    - rBody.AddForce allows us to apply a force to our rigidbody component.
+    - OnMouseDown.
+    - You can use the constraints in the rigidbody to keep it from rotating or moving in directions you do not want it to.
+    - To make an element bouncy, first you need to create a physics folder and a physics material.
+    - Add the bouncy to the box colider of the character as a physics material.
+    - Prefabs folders to make object templated that you will use later. 
+    - Instantiate makes a new object.
+    - IEnumerator with while loop makes it so you can generate things over time intervals.
+    - Yield return new WaitForSeconds(delay) waits for a few seconds before moving on.
+    - OnCollisionEnter runs when something enters some collision boundaries.
+    - Destroy(other.gameObject) removes the other object that hits whatever it is applied to.
