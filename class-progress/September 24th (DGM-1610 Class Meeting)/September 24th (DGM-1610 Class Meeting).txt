@@ -1,0 +1,38 @@
+Calendar items for today:
+    - We are going to completely redo the character controller
+    - Sololearn and C# pocket reference on Amazon.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Started out by deleting the character mover script completely so we could do a fresh start on it.
+    - The first variable is a public CharacterController controller;
+    - Dragged the CharacterController component to the controller variable box in unity.
+    - Made a vector3 moveDirection to store the movement direction.
+    - The controller.Move method that requires a vector three.
+    - We then used the .set moveDirection.Set to set the vector3.
+    - Added the Time.deltaTime scaler to normalize the time.
+    - Used a temp var moveSpeedInput to scale the value over our time.delta time.
+    - Movement variable. We added some variables because he said it is faster to calculate values outside of function calls.
+    - Initialized gravity as -9.81f on the same line as our other public float variables.
+    - We added a yDirection variable to help with the gravity calculation.
+    - We wrote two if statements. One so gravity does not supper compound to a huge number. And the second is so the character jumps when the jump key is pressed.
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Talked about RAM 32gb is preferable... 16gb is okay, but definitely a little more of a struggle. 64 rocks, it is unstoppable.
+    - We have a cube with the character controller on it and we have a character mover on it.
+    - We cleared out the script completely so we could do a fresh start on it.
+    - CharacterController is a class, and then we name it.
+    - The slot must be filled or else it will not find it.
+    - We are going to make the player move it on its own. We are going to do this with the update function.
+    - .Set and .Move method ...methods are like function
+    - Calculate values in variables, is faster outside of  the function call.
+    - We can add gravity = -9.81f and other variables that we want public and a float on the same line.
+    - Separate public and private variables on different lines.
+    - By using the isGrounded and if the move direction y we can make it so gravity stays small when on the ground.
+    - He drew on his notepad and talked about vector3, the .set, if statements, functions in general, and some more.
+    - Code is hard. It is grammar.
+    - In his notebook compared coding to English paragraphs. 
+    - Sololearn is good to learn C# if you need help it is really really really really good.
+    - The C# pocket reference is really good.... not in a nutshell but in as a reference.
