@@ -1,0 +1,39 @@
+September 3rd (DGM-1610 Class Meeting)
+
+Summary of what I accomplished in this class:
+	- Cleared out the MoverScript to "Pretend we did not do it" to go through as a redo
+	- Wrote the speed variable declaration: public float speed = 5.0f;
+	- Added the Update() Function
+	- Created the public score variable
+	- Duplicated the cube and named them: Player 1 and Player 2
+	- Implemented the Input.GetAxis to be able to use the arrow keys to move the player around the window
+	- Added a button from the UI menu
+	- Changed the button text to "Up"
+	- Added an OnClick event to the button
+	- Added the public Up() function
+	- Duplicated the button and named them Up and Down respectively
+	- Moved the buttons for cleanliness
+	- Created the Down Function
+	- Created a public variable to hold a value for the jump distance by clicking one of the buttons
+
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Today Romrell Taught us:
+	- We need to be concerned about 1) Variables and 2) Functions
+	- Write public if you want it to be view-able inside the unity editor
+	- Then write the data type
+	- Then the variable name
+	- Then = means assign
+	- Then the value
+		For example: public float speed = 5.0f;
+	- Functions start with a uppercase letter.... always
+	- Functions also need a () and {} for proper syntax
+	- You can change the public variable data in the Unity Inspector, Rider will have the updated changes if properly setup
+	- An int does not have a decimal value but floats do
+	- Control-D duplicates what is selected
+	- The input getAxis goes on values from -1 to 0 to 1 on both horizontal and vertical axis-es
+	- Buttons have an On Click() function
+	- Functions do work
+	- If a variable is inside a function you can just use "var"
+	- Always end lines with a semi colon
+	- String means a string of characters

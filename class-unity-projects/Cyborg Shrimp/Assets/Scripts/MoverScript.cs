@@ -1,16 +1,23 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 public class MoverScript : MonoBehaviour
 {
-    public float speed = 3.0f;
-    public float x, y, z;
-    void Start()
+    public float speed = 5.0f;
+    public int score = 100;
+    public float buttonJumpDistance = 0.5f;
+    private void Update()
     {
-        Debug.Log("Hello World!");
+        var vInput = Time.deltaTime * speed * Input.GetAxis("Vertical");
+        var hInput = Time.deltaTime * speed * Input.GetAxis("Horizontal");
+        transform.Translate(hInput, vInput, 0);
     }
-    void Update()
+    public void Up()
     {
-        x = speed * Time.deltaTime * Input.GetAxis("Horizontal");
-        y = speed * Time.deltaTime * Input.GetAxis("Vertical");
-        transform.Translate(x, y, z);
+        transform.Translate(0, buttonJumpDistance, 0);
     }
+    public void Down()
+    {
+        transform.Translate(0,-buttonJumpDistance,0);
+    }
+    
 }
