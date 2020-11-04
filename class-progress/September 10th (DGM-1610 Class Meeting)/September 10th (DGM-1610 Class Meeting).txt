@@ -1,0 +1,35 @@
+Calendar items for today:
+    - Power-ups
+    - Triggers
+    - Colliders
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Created the 2D Unity Project.
+    - The rest of the work for the day is in the Cyborg Shrimp file.
+    - Deleted the Two Buttons with the canvas UI.
+    - Deleted the Player two cube.
+    - Created 3D sphere and named it PowerUp.
+    - Created a new C# script and named it PowerUp.
+    - Added the PowerUp script to the PowerUp object.
+    - Deleted the Start() and Update() functions for now.
+    - Created the OnTriggerEnter() function in the PowerUp script.
+    - Made is trigger true on the sphere collider.
+    - Added character controller on the Player.
+    - At this point every time the player touches the PowerUp object the word "Trigger" prints to the console.
+    - Added the Public int variable: score.
+    - Implemented the score to increase by 1 each time the player makes contact with the powerup by using the ++ operator.
+    - Quickly implemented the HealthPowerUp C# script that will be worked on for homework.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Git is simply a folder on your hard drive.
+    - The point of using git in this class is so he can keep track of us.
+    - Git tracks changes also known as versioning so it keeps your files safe.
+    - You really only need one repository for this class.
+    - Spent a significant amount of time troubleshooting git errors of other students.
+    - Talked a little bit about branches and merging.
+    - Talked about right clicking on a Mac for people that did not know how.
+    - Re-taught about how to create a git repository.
+    - For colliders to work they need to have is trigger to be turned on.
+    - Learned that through the score++; the ++ will increase the variable by 1.
