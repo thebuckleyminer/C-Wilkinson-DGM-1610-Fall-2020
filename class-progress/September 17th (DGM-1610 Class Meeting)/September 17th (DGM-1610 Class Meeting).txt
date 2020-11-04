@@ -1,0 +1,64 @@
+Calendar items for today:
+    - Unity Events.
+    - Else Clause.
+    - OnMouseDown. (Moved due to cat being sick)
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Created a new C# script called UnityEvents.
+    - Deleted the default Start() and Update() methods.
+    - Added the using UnityEngine.Events; to give us some unity events.
+    - Created a public variable of the type UnityEvent named myUnityEvent.
+    - Created a sphere and named it to UnityEvent.
+    - Added the UnityEvent Script to the UnityEvent object.
+    - The inspector now shows that the My Unity Event is a list of things that it can do for us.
+    - All of the items in the function list are things on the components.
+    - Through our Unity Event we added a SetActive and made sure it was toggled to off.
+    - We wrote the OnTriggerEnter() function and invoked the myUnityEvent. myUnityEvent.Invoke();
+    - The UnityEvent object when touched by the player then turns itself off.
+    - We also added a UnityEvent to our PowerUp script and told it to invoke on trigger enter.
+    - We added events to SetActive to off on the Ammo and Health PowerUp.
+    - At this point when the player hits any of the Ammo, Health, or UnityEvent object they will go away.
+    - Added a particle system to the scene and turned emission to zero.
+    - Added the particle system to the UnityEvent, as well as to Health and Ammo PowerUps and in the Event() assigned the ParticleSystem.Emit function to 30.
+    - At this point the cat got sick enough and class ended.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Reviewed functions, classes, and if statements. Using both the MoverScript and PowerUp C# files.
+    - For a power up to work the player has to have a player controller on it, as well as the PowerUp script applied to the PowerUp and the Is Trigger option checked on the Collider.
+    - Syntax Review.
+    Classes:
+        - A class is simply a organization of variables and functions.
+        - The file name needs to be the exact name is the chosen ClassName.
+        - To declare a class we first us a access modifier. [public for it to be available to be seen, or private to be hidden]
+        - Then we write the key word: "class". This is a word that simply means that we are going to write a script. In English it is short for classification of something.
+        - Then we give it a class name. [ClassName] It has to only be one word and sub-words are capitalized.
+        - Then all we need after that are open and closed curly braces. [{}]
+        - Then inside the body of the class inside the curly brackets you can do variables and functions.
+        - For example: public class ClassName{}
+    Variables:
+        - To declare variables use an access modifier such as public. Public means it can be used in the unity editor.
+        - Then we use the data type for what we want it to be. Some options are: int, float, string, bool, and Vector3.
+        - Then we name them ".... it's like naming a dog". Could be like: number, playerName, speed.
+        - Variables are to be lower case on the first letter and then camel case on the rest. That is how you know it is a variable.
+        - For example: public float health = 150.0f;
+    Functions:
+        - For functions you use private or public.
+        - Then we use void. Void is a function type. There are many function types but that is the one we are using.
+        - Then we give it a name. A function name for example might be: Update().
+        - We then denote the function with two parentheses followed by two curly braces.
+        - Finely we put the lines of code inside the function.
+        - For example: public void Update(){}.
+    - Class - A Group of Variables and Functions.
+    - Variables - Variables contain data. Like numbers and letters.
+    - Functions - Work. Something that we want it to do.
+    - If statements run the code in the body if the equation in the parentheses returns true.
+    - UnityEngine is a library of code.
+    - For MonoBehavior to work and not turn red we need to import UnityEngine by using the statement: using UnityEngine at the top of the script.
+    - UnityEngine is a library of classes, MonoBehavior is a class inside of the library UnityEngine.
+    - UnityEvents are ways to code without coding. It is kind of like visual coding.
+    - The unity event on the object shows a list of all the components.
+    - You can use SetActive to toggle an object to and from your scene.
+    - To create a particle system: right-click->events->particle system.
+    - At this point the cat got sick enough and class ended.
