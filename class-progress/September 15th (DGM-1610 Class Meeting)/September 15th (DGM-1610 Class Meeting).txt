@@ -1,0 +1,51 @@
+Calendar items for today:
+    - If Statements.
+    - Transform Components.
+    - Vector3 Variables.
+    - Review - Power-Ups.
+    - Review - Triggers.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - We are going to re-write a powerup to make it more generic.
+    - Delete all of the powerup scripts.
+    - Added a new PowerUp C# Script.
+    - Removed the Start() and Update() functions.
+    - Created a public variable int named value.
+    - Created a new capsule and named it AmmoPowerUpCapsule.
+    - Added the script as a component on the new AmmoPowerUpCapsule.
+    - Duplicated the AmmoPowerUpCapsule and named the second HealthPowerUpCapsule.
+    - Changed the Value to different integers on the two capsules.
+    - Created a OnTriggerEnter function to increase the value by one each time it is touched.
+    - Deleted the inside of the MoverScript to redo it with the class.
+    - Added transform.Rotate to make the player rotate.
+    - Added a Vector3 variable for rotation to keep the calculations out of the function call.
+    - Created a if statement to print if count is over a number.
+    - Deleted previous if statement and made a if statement that checked for a password.
+    - Removed all of the Mover Script to start over(I made a copy in the comments).
+    - Created the Update() Function with some variables for move speed and a Vector3.
+    - Wrote a transform.Translate for the player to move.
+    - Made an If statement to jump if the "Jump" button is pressed.
+    - At this point the character moves left when nothing is pressed, and moves right when the space-bar is pressed.
+    - Took the transform.Translate(moveDirection); out of both the if and else statements and put it after because it only needs to be used once.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - If you can not see a object it is probably outside of the camera bounds. Use the transform to bring it closer to the origin.
+    - You can also see the objects in the Hierarchy and press f to find it.
+    - There is a 2D button at the top left edge of the scene window and that toggles between 2D and 3D.
+    - In order for a Power Up to work a couple things have to happen. A Character Controller on the player, a trigger on the collider, and be lined up on the Z axis since they are colliding.
+    - Talked about variable names, like Score, Health, and Ammo. These make sense. If you said: "I got a high value the other day" that would not really make sense.
+    - The Class Name and C# named have to be the same.
+    - Make sure you have the correct number of curly brackets on classes, functions, and other statements.
+    - Print() logs text or a variable to the console.
+    - Void tells us that it is a function.
+    - Memorize: It is best practice to have a f after a float number.
+    - It is best practice not to do calculations inside of function calls.
+    - We are going to use a Vector3 which uses X, Y, and Z floats to represent a movement.
+    - If statements take arguments in the ( ) and the output in the { }.
+    - == is the comparison operator in C#.
+    - If statements process the code in their body if their parameters are True.
+    - You can write an else statement after an if statement.
+    - Else statements do not have parameters because they are what run if the if is false.
+    - You do not second a repository for create with code. But you can if you want.

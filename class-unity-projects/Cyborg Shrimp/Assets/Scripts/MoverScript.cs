@@ -2,22 +2,38 @@
 using UnityEngine;
 public class MoverScript : MonoBehaviour
 {
-    public float speed = 5.0f;
-    public int score = 100;
-    public float buttonJumpDistance = 0.5f;
-    private void Update()
-    {
-        var vInput = Time.deltaTime * speed * Input.GetAxis("Vertical");
-        var hInput = Time.deltaTime * speed * Input.GetAxis("Horizontal");
-        transform.Translate(hInput, vInput, 0);
-    }
-    public void Up()
-    {
-        transform.Translate(0, buttonJumpDistance, 0);
-    }
-    public void Down()
-    {
-        transform.Translate(0,-buttonJumpDistance,0);
-    }
-    
+ public float moveSpeed;
+ private Vector3 moveDirection;
+
+ public void Update()
+ {
+  if (Input.GetButton("Jump"))
+  {
+   moveDirection.x = moveSpeed * Time.deltaTime;
+  }
+  else
+  {
+   moveDirection.x = -moveSpeed * Time.deltaTime;
+  }
+  transform.Translate(moveDirection);
+  
+ }
 }
+
+
+
+
+
+//public float speed = 10.0f;
+//public int count;
+//public Vector3 rotationVector3;
+//public string password;
+//private void Update()
+//{
+//if (password == "OU812")
+//{
+ //   print("Password is correct");
+//}
+//rotationVector3.y = speed * Time.deltaTime;
+//transform.Rotate(rotationVector3);
+//}
