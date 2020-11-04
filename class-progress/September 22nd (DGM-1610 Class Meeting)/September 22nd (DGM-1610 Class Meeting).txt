@@ -1,0 +1,55 @@
+Calendar items for today:
+    - Character Controller.
+    - IsGrounded Variable.
+    - new keyword.
+    - keywords all together.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Created a new CharacterMover C# script for this project.
+    - Made a new public CharacterController variable called controller.
+    - Made a new Vector3 variable called moveDirection.
+    - We added controller.Move(moveDirection); to the update function to tell it to move.
+    - Removed MoverScript component from the player.
+    - Added the CharacterMover to the player object as a component.
+    - Dragged the Character Controller component to the Controller variable slot on the player.
+    - Removed the box collider from the player because we did not need it.
+    - The Character now stops when it hits the big block.
+    - Added Ground Plane.
+    - Added a directional light to the scene.
+    - Created a var temp variable in the function because he said you should not pass calculations into a function.
+    - Implemented a Input.GetAxis in this script to the user can control the player with input.
+    - Made some of the variables that are no longer needed private instead of public.
+    - Added some code to jump. This contains a if statement for the Get Button of the jump key.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    People had problems with Create with Code.
+        - Talked about how Create with Code uses a Unity 2018 version.
+        - If you used 2019 or 2020 you will have to do a package update because it will say your packages are out of date.
+        - To import the assets from the Asset store you will have to click download and the press the import button.
+        - This is how to fix it if you created the Create with Code with a 2019 Unity Build.
+        - It says there are problems in the package manager. You have to go to window -> package manager -> advanced -> Set packages to defaults -> discard current packages.
+        - That should clear all of the errors if someone ran into that program.
+        - All and all he recommends downgrading to 2018.4.
+    Keywords:
+        - A keyword is something that already exists in the Unity editor.
+        - CharacterController is a keyword, class is a keyword, MonoBehavior is a keyword, void is a keyword that means function.
+        - You can't use keywords that already exit or else you will override them.
+    - There is a serious issue when using transforms.
+    - They will do triggers for us but here is the problem we are going to have... They Ignore Physics! They will move objects straight through other objects!
+    Character Controller
+        - The new variable object type we are going to use today is CharacterController.
+        - Variables always have a name... we always have to name our variables.
+        - A NullRefrenceException or a UnassignedReferenceException means that you are missing something.
+        - CharacterController is a special collider to move characters around.
+        - Unlike Transform. Transform does not know anything about colliders.
+        - The CharacterController is controlling the transform.
+    - Adding a directional light will help the scene with visibility.
+    - To get something to move you need three things: 1) A MoveCharacter script on the object 2) A CharacterController (With it as the CharacterMover script variable) 3) A move direction to say anything other than zero.
+    - You should not pass calculations into a function. So make a temp variable with the var keyword in the function and then use that.
+    - By using a comma you can declare multiple variables at once with a variable decoration.
+    - The default for gravity is -9.81f.
+    - The Input of the Arrow Keys, WASD, or a controller gives a float between -1 and 1.
+    - We do not want to have some of the values as public anymore because we do not want to see them. We will change some of the public to privates.
+    - += means take what ever this already is and add this to it.
