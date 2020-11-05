@@ -1,0 +1,48 @@
+October 1st (DGM-1610 Class Meeting)
+Calendar items for today:
+    - Talked about Create with Code expectations.
+    - Particles.
+    - On mouse down.
+    - Inheritance.
+    - Scope
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Created animals folder and Animal C# script.
+    - Created a new scene.
+    - Added a sphere we named animal and added the animal C# script as a component.
+    - Added the base skin color of all animals as blue in the script.
+    - Created a Mammal C# script .
+    - Changed MonoBehavior to Animal.
+    - Created a new cube and named it Mammal and added the Mammal script to it and now we can see that it has inherited the blue skin color.
+    - Created a Dog and had it inherit from mammal.
+    - We added some value to each level to show inherit .
+    - Saved the animal scene and made a new scene.
+    - Made the DnD folder.
+    - Created health, strength, intelligence to base player script.
+    - Created a whole DnD example with many scripts and objects to prove inheratance.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - For create with code, he is just looking for it to be error free. It is practice.
+    - Reviewed what we have done so far in this flappy bird scene and what the scripts and objects do.
+    - Talked about other mouse events besides on mouse down.
+    - Showed what is expected for assignment 1.
+    - If Create with Code is killing you, you can do the Beginner Scripting Unity Course.
+    - Next semester is fully online.
+    - Inheritance Classes!
+    - Animal has a class and it is a MonoBehavior.
+    - When we made the animal script and then the mammal and changed the MonoBehavior to Animal our mammal now had the blue skin that was in the animal script.
+    - We then made a dog object/script and had it inherit from mammal.
+    - This shows that Inheritance works and passes down to lower classes. You can now see the variables that have been passed down.
+    - Classes force you to do design.
+    - A good question to ask is how many of the objects share data?
+    - The three reasons of scripting Inheritance : Code Less. 2) Design / organisation. 3) Less Bugs.
+    - Inheritance doesn't just use variables it also does functions.
+    - Protected void move made it so all players can move.
+    - He drew a lot of graphs to show how Inheritance works among objects and classes.
+    - You can not inherit from two classes. You can only inherit from one class.
+    - Talked a little about interfaces.
+    - Inheritance is used to pull data down, interfaces are used to force design.
+    - If you want to change a variable you can hard code in the start if you want to.
+    - If you are struggling with create with code, try doing the beginner scripting course from Unity.
