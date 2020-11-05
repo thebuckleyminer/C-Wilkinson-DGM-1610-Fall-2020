@@ -1,17 +1,24 @@
 ﻿using System;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
+
 public class CharacterMover : MonoBehaviour
 {
     //Public Variables
-    public CharacterController controller;
     public float moveSpeed = 5.0f, gravity = -9.81f, jumpForce = 10f;
     
     
     //Private Variables
+    private CharacterController controller;
     private Vector3 moveDirection;
     private float yDirection;
-    
+
+    private void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
+
     // This moves the player smoothly on the Horizontal axis and jumps
     private void Update()
     {

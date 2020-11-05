@@ -1,0 +1,49 @@
+Calendar items for today:
+    - Scriptable Objects
+    - Quick review on inheritance
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Created a Scriptable Objects folder.
+    - Created the IntData C# script.
+    - Changed MonoBehaviour to ScriptableObject in IntData.
+    - Added [CreateAssetMenu] above the class line.
+    - Right clicked in the assets and added a IntData named Score.
+    - Created public int with the generic name: value.
+    - In the unity editor we now have a box to have a value.
+    - Set the value to start out at 100.
+    - Created new scene.
+    - Deleted all UnityEvents, DnD, and Animals scripts.
+    - Created TriggerEventsBehavior script.
+    - Public UnityEvent TriggerEnterEvent.
+    - Then we Invoked .
+    - Added ground plane named ground, a cube named player with the character mover script applied, and a directional light.
+    - Added a character controller.
+    - Added a start function with GetComponent<CharacterController>.
+    - Created a cube instead of a plane for the ground.
+    - Deleted the powerup script.
+    - Created sphere named ScorePowerUp and added the trigger events script with the sphere collider is Trigger.
+    - Made it so there are two spheres with different materials. One takes twenty points from the score, the other adds ten.
+    - We duplicated them and all of a sudden we have health powerups once we made a new instance of the scriptable objects.
+    - Saved the scene as NewPowerUpsWithSos.
+    - Added XP, speed, shields, cash, score, health basically whatever you want!
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Started in the notepad with a picture showing the unity project, scene, and hierarchy.
+    - If there is an object in the scene or hierarchy (which are the same thing) that is called a game object.
+    - If in the inspector if we add a script to a game object, those are called components.
+    - A component is made of a class called MonoBehavior.... A component is a mono behavior.
+    - In our project view are assets, the assets we have been building so far which ar4e scripts.
+    - The next assets we we will add are called scriptable objects.
+    - Objects that are in the scene are called game objects.
+    - Objects that are in the project are called assets.
+    - The object we are getting introduced to today is called a scriptable object.
+    - A scriptable asset is an asset that can be used by other assets and by game objects. So if it is in the project, then it can use it
+    - To make one you need 1) ScriptableObject instead of MonoBehavior and 2) [CreateAssetMenu].
+    - GetComponent<CharacterController>. 
+    - [RequireComponent(typeof(CharacterController))] above the class.
+    - You can use a cube instead of a plane for the ground then it will be easier to see in the 2D view.
+    - Through unity events we are able to tell the scriptable object to update the score.
+    - XP, speed, shields, cash, score, health are Scriptable Object examples... you can basically have whatever you want!.
+    - Scriptable objects are a variable that everything can see.
