@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b88f7ade5844fbf49948fce5b1c1571a, type: 3}
-  m_Name: PlayerHealth
+  m_Script: {fileID: 11500000, guid: 9081b0013b57aaf48a522a4f7eda8c57, type: 3}
+  m_Name: Dialogue 2
   m_EditorClassIdentifier: 
-  value: 1
+  value: To find the Holy Grail!

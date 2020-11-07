@@ -1,0 +1,24 @@
+Calendar items for today:
+    - UI.
+    - Image Components.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - Deleted the ImageBehavior script.
+    - Created a new scene, long cube (ground), player, powerup, and directional light.
+    - On the Player I added the character controller component as well as the character mover.
+    - Added the equivalent power up things and triggers on the power up script.
+    - Saved the scene as PlayerUI.
+    - Added DiplayImage to FloatData Script.
+    - Created a UI image.
+    - Finished the steps to make a working health bar.
+    - Called the power up health damager.
+    - Made a sphere with a new gold material and named it coin.
+    - Created a new floatdata named Money.
+    - Added text for a score. Then added the text to the coin object with the money float data to display the value.
+    - Created a MonoEvents script.
+    - using UnityEngine.Events;.
+    - Wrote the functionality through an empty and some new functions to initialize the money to 0, the player health to 1 and display the text and image respectively.
+    - Created the string data scriptable object.
+    - We are going to make a primitive primitive dialogue system.
+    - Made a dialogue system when hitting different objects displayed different messages.
