@@ -1,0 +1,30 @@
+Calendar items for today:
+    - Scriptable objects, floats, bools, and ints.
+    - Create a health bar.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+Summary of what I accomplished in this Class Meeting:
+    - BoolData script and folder.
+    - FloatData script and folder.
+    - PlayerHealth float Scriptable object.
+    - Created UI image for the health bar.
+    - Made sprites folder and square square sprite.
+    - Created a health bar.
+    - Added the line using UnityEngine.UI.
+    - DisplayValue(Image img).
+    - img.fillAmount = value.
+    - Created the image behavior script to make the health bar work.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Talked about ADHD, and how he uses it as an amazing superpower.
+    - Told us to talk to him about a plan of action if we are behind.
+    - Talked about how the MoveLeft script and PlayerController script from Create with Code are badly written scripts.
+    - Reviewed what we have previously learned in class.
+    - Scriptable objects are basically just global variables.
+    - Why scriptable objects? If we need to know if the player has good health, and a health bar, and a powerup needs to know about the health, and unhealthy cake. An enemy might also need to know about your health.
+    - All of these things need to hypothetically know about the health, so this is where a scriptable object comes in.
+    - A trigger is when one object intercets or passes through another object.
+    - A scriptable object is a variable everything in your game can see.
+    - += is the same is x = x + y.
+    - We learned about how to make a health bar out of a scriptable object.
