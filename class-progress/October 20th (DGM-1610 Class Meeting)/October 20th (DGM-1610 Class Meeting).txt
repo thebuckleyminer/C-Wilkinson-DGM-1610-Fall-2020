@@ -1,0 +1,10 @@
+Key items from today:
+    - MonoBehavior goes onto a game object.
+    - The job of a trigger is to see when two box colliders intercet, that is a trigger.
+    - Unity Event. Unity Events can call things.
+    - A trigger can invoke a Unity Event. If we write a function they can invoke it.
+    - A scriptiable object contain two things 1)Variables 2)Functions.
+    - The difference between a monobehavior and scriptable function is that a monobehavior is on a game object, but then a scriptible object is its own object.
+    - He showed us by making his own create with code script how that their code is not really efficient and that it can be dome much better.
+    - Lastly we made a really cool dialogue manager that used modulo division as well as a list to cycle through dialogue!
+                                                                                                                               

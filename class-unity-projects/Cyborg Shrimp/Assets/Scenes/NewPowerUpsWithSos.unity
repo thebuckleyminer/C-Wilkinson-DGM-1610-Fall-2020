@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 447535733}
   - component: {fileID: 447535732}
   - component: {fileID: 447535736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 552226135}
   - component: {fileID: 552226134}
   - component: {fileID: 552226133}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: HealthDamager (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 1043458152}
   - component: {fileID: 1043458151}
   - component: {fileID: 1043458150}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: HealthDamager (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 1353031003}
   - component: {fileID: 1353031002}
   - component: {fileID: 1353031001}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: HealthPowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 1512713313}
   - component: {fileID: 1512713312}
   - component: {fileID: 1512713311}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: GroundCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 1725990162}
   - component: {fileID: 1725990161}
   - component: {fileID: 1725990160}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: HealthDamager (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1541,7 +1541,7 @@ GameObject:
   - component: {fileID: 2018160127}
   - component: {fileID: 2018160126}
   - component: {fileID: 2018160125}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: HealthDamager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
