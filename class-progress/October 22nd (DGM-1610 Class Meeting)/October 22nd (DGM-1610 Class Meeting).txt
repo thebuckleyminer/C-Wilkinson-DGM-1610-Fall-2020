@@ -1,0 +1,52 @@
+October 22nd (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting:
+    - Created ClassReview C# Script.
+    - Created more layers so you have to tag a lot less.
+    - Created a new scene with a stretched cube named layer.
+    - Made a PlayerTrigger empty object in and under the player object and added a box collider.
+    - The reason we did this is so one could collide and one could trigger. But when we move the player around the trigger empty will move too.
+    - We changed some of the physics interactions under Edit -> Project Settings -> Physics.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Reviewed Access modifiers like the word public.
+    - Public means anyone can see them. Like in a park. Can be used in the Unity editor.
+    - Private means that is private and can not be seen or used in the Unity editor.
+    - MonoBehavior is a component. Components go on game objects in the inspector
+    - Methods are the same thing as functions and they do work, or in other words execute code.
+    - Variables. Int is an integer. Float has a decimal. String is a grouping of character.
+    - Bool is true or false.
+    - Unity has built in variable types like GameObject and Transform.
+    - End the line with a semicolon at the end of every sentence with a semicolon;
+    - 
+    - What is the difference between a MonoBehavior and a Scriptiable Object?
+    - MonoBehavior goes right on the game object as a component.
+    - Scriptable object is instantiated as an object.
+    Instantiating is making a something.
+    SO = Asset
+    MB = Components
+    The point of a Scriptiable object is to hold data
+    Both store variable and functions, the difference between the two is what can see and use it.
+    References. Anything that is a separate object or variable is referenced in.
+
+    Layers. Without layers you have to do a compare tag.
+    Edit -> Project Settings -> Physics
+    Created more layers
+    Tags are really not the best solution 
+
+    "The fastest code in your game is the code that never runs"
+
+    Player:
+        - Move with input
+        - Interaction
+        - Still
+    AI:
+        - Computer Driven Movement
+    AI Interaction:
+        - Still
+
+    If there is a certain power that moves is that is an AI Interaction
+    Also the reason we make an AI Interaction Layer is so they do not interact with themselves
+    Interactions two types: Triggers and Collisions.
+
+    Reviewed what do if students are behind and how to contact him. Talked a little bit about the final and what the class will be doing from here on out.
