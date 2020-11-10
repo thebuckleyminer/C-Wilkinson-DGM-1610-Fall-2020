@@ -1,0 +1,39 @@
+October 27th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting:
+    - Made a new unity file (scene) with a new object.
+    - Created Collections C# Script - kept as monobehavior but pretty much deleted everything else.
+    - public List<string> collectionList;.
+    - Experimented of how changing the integer in the call of the collection accesses different elements.
+    - Made a for each loop that printed out the item in the start function.
+    - Made another list called: gameObjectList.
+    - Created another loop to print out the items in the gameObjectList.
+    - Made CollectableItem C# Script.
+    - Changed it to a ScriptableObject and added the [CreateAssetMenu] line.
+    - Removed all other unnecessary lines from the CollectableItem ScriptableObject.
+    - Made a new scene called ListsAndLoops.
+    - Made a Collectibles folder.
+    - Created a handful of new sprites.
+    - Created three collectibles in the collectibles folder. A blue diamond, a red cube, and a yellow circle. *Made sure the Alpha was at 100%.
+    - Added the three collectibles to a collectible list on an Empty called art collection.
+    - Implemented code to print out all of the objects and variables to the console.
+    - Changed the for each loop to a regular for loop with the value i.
+    - Added code to change to position of the sprites.
+    - When running the project it now loops through the collection and shows the three colored sprites on different locations on the screen.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Answered questions about homework assignments. They are different from what we do in class and what we do in create with code.
+    - Refactor. Means take your code and rewrite it.
+    - Rewrite means that you change functionality, but refactor is basically making it look better or run smother while doing the same thing.
+    - Lists have a size integer that you can choose about how many elements are in the list.
+    - Added this line: public List<string> collectionList;.
+    - public means public.
+    - List<> is the object type.
+    - <string> is the type of objects the list will hold.
+    - collectionList is the name of the variable.
+    - 0 is the first element in the collection. Because of zero based indexing.
+    - Talked about running a call to an index that does not exist.
+    - Learned about the For each loop.
+    - Learned the for loop with i as an index.
+    - + A lot more.
+    - Finished up talking about expectations for the rest of the year.
