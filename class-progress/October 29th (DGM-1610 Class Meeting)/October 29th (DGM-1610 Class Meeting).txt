@@ -1,0 +1,19 @@
+October 29th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting:
+    - Money Scriptiable Int Object.
+    - Cash.
+    - Set active to false with code.
+    - reworked how the sprite in on the screen for this demo.
+    - Display Image.
+    - We then took off and made a text UI to display the money value and much much more.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - A code has separate components and they all do different things.
+    - In the programming world they call these things objects. They call it Object Oriented Programming.
+    - In Object Oriented Programming they make these little classes or a script.
+    - The instances of these classes are the objects.
+    - They are nice because they are small and only do a few things.
+    - We use the Transform Object all the time... also called component.
+    - Learned a lot about Scriptiable Objects.
+    - Learned how to share data easier.
