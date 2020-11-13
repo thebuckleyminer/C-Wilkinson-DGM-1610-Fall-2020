@@ -1,0 +1,10 @@
+November 5th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting:
+    - Game Health Bar change from events.
+    - Made a Game Over Screen.
+    - Made a game restart button and functionality.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - How to use events, actions, calls, and handlers to add functionality.
+    - How to refactor code to use calls and handlers to implement a health bar, game over, and restart system.
