@@ -7,13 +7,13 @@ public class CollectCash : MonoBehaviour
     public IntData cashTotal;
     public CollectibleItem collectibleObj;
     public Text txtObj;
-    private SpriteRenderer renderer;
+    private SpriteRenderer rendererVar;
 
     private void Start()
     {
-        renderer = GetComponent<SpriteRenderer>();
-        renderer.sprite = collectibleObj.art;
-        renderer.color = collectibleObj.artColor;
+        rendererVar = GetComponent<SpriteRenderer>();
+        rendererVar.sprite = collectibleObj.art;
+        rendererVar.color = collectibleObj.artColor;
         txtObj.text = cashTotal.value.ToString();
     }
 

@@ -1,0 +1,33 @@
+November 3rd (DGM-1610 Class Meeting)
+
+Summary of what I accomplished in this Class Meeting:
+    - Duplicated a scene and named the new scene CharacterFlip.
+    - Added a cube as a child of the player to prove it does not turn or flip.
+    - Deleted nose.
+    - Removed Mesh Renderer, cube renderer, and box collider. It is now a Character Controller, transform ,and character mover script.
+    - Added body cube as a child called body.
+    - Added a child cube of body called nose.
+    - Turned it pink to look like a pig.
+    - Added code to turn the player 180 deg on the y axis to point the direction of travel.
+    - Created a sprite with a RotateObject script.
+    - Wrote code for triangle sprite to rotate.
+    - Placed the previous code in a if statement controlled by a boolean variable.
+    - Created the GameAction C# script.
+    - Made it a scriptable object with a create asset menu line.
+    - Added public UnityAction action; to the script.
+    - Added public void Raise() function.
+    - Added action?.Invoke(); call.
+    - Created the GameActionHandler C# script to answer the call... that is a handler.
+    - Now the triangle starts rotating when the red cube is touched.
+    - Added a particle system to fire off when the red block is hit as well through invoking the UnityAction. 
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Character Controllers do not turn on their own.
+    - Character Controllers can move but they themselves can not rotate.
+    - We are going to flip the artwork through a separate script on the body.
+    - Handlers. An object calls, another does event handling.
+    - We learned about Unity action by making one
+    - The ? in action?.Invoke(); means to check for null.
+    - How to use a action and handler to make something else go off in the game.
+    - Finished talking about making some UI and homework in general.
