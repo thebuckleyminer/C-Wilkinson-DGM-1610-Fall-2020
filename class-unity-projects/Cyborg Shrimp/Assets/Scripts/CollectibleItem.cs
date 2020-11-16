@@ -8,5 +8,8 @@ public class CollectibleItem : ScriptableObject
     public Sprite art;
     public Color artColor = Color.blue;
 
-
+    public virtual void Use()
+    {
+        
+    }
 }

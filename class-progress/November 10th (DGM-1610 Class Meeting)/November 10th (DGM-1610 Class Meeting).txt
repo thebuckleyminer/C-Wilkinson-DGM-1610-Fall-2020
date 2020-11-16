@@ -1,0 +1,29 @@
+November 10th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting:
+    - Created the GameSwitch C# script and deleted all of the grey stuff.
+    - Added public enum GameStates, with labels: Starting, Playing, Ending, InStore, Pausing.
+    - Created a new scriptiable object GameSwitch named GameSwitchObject.
+    - Set the default state to public GameStates currentGameState = GameStates.Starting;.
+    - Implemented the RunCurrentState() function.
+    - Added the switch: switch (currentGameState).
+    - Auto generated switch labels with the light bulb.
+    - Added a Debug.Log(""); statement to each of the cases.
+    - Removed the default statement.
+    - Created the GameController empty object.
+    - Change to playing button and function.
+    - Created DefencesSwitch C# script.
+    - Added a New Defences Switch S.O. to the project.
+    - Made the Defence C# Script.
+    - Made a Defences folder and added a bunch of potions and shields.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - Switch statement.
+    - Enum.
+    - Using the light bulb you can have it automatically generate the switch labels.
+    - Case means lets check.
+    - Break means stop.
+    - Switch statements vs events.
+    - You would have to add a case for each new one you add so  it is not the most practical anymore.
+    - The better way of doing it is less coding so we do not have to add to the list.
+    - We started using the virtual and override keywords but I did not necessarily understand them yet.
