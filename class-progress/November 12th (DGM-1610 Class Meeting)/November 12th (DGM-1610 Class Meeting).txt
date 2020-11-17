@@ -1,0 +1,32 @@
+November 12th (DGM-1610 Class Meeting)
+**Updated the GitIgnore to not track the NavMeshComponents add-on folder that we added.
+Summary of what I accomplished in this Class Meeting:
+    - Created a new scene to do an AI example.
+    - Created a new static plane called NavMesh as well as a directional light.
+    - Saved the new scene as NavMesh in the new ai folder.
+    - Baked the NavMesh.
+    - Added an Agent Cube with component.
+    - Created a AIBehavior C# script in the AI folder.
+    - Added the code and a player so the Agent now follows the player in play mode.
+    - Made a block to be an Obstacle and re-baked the object.
+    - Swiched back to the charachterflip scene, made the ground static and widened it and then baked it.
+    - Created a capsule named agent with the AIBehavior added as a component.
+    - Imported NavMeshComponents-master folder from GitHub into my Assets folder.
+    - Made it simply jump to the platform with the AI.
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Key items Romrell taught us today:
+    - AI is simple like a charachter controller.
+    - They use NavMesh but that can be a little tricky.
+    - You have to click the static button in the inspector.
+    - Turn on Window -> AI -> Navigation.
+    - He taught us how to make and bake a NavMesh.
+    - Mesh is another word for geometry.
+    - Nav...Mesh means to move around on geometry.
+    - The job of the NavMeshAgent is to move on the NavMesh with a purpose.
+    - Physics is irrelevant to AI.
+    - You have to add a Nav Mesh Obstacle.
+    - We tried to figure out how to have the capsule jump on a platform.
+    - You can change the stopping distance if you want it to follow you like a pet or a friend.
+    - Spent a chuck of time trying to figure out how to make the jumping work.
+    - Showed us that you can get NavMeshComponents from GitHub.
