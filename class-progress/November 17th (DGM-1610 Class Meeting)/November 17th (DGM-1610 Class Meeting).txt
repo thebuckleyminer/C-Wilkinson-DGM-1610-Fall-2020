@@ -1,0 +1,9 @@
+November 17th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting /Key items Romrell taught us today:
+    - We made code for the AI to follow us when in the trigger zone, and to stop following when out of the trigger zone.
+    - Patrol Points.
+    - Functions with return types.
+    - Made the agent patrol between two points or the player if the player is inside the bounding box.
+    - Used Modulo division to find the remainder to update the counter which helps the AI figure out where to go next.
+    - Updated the AI to have a child empty component to damage the player's health.
+    - Created Vector3Data folder and scriptiable object to make the spawn point work.
