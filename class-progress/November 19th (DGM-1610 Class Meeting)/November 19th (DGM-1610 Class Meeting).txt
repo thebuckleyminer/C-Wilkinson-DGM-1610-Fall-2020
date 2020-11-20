@@ -1,0 +1,13 @@
+November 19th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting /Key items Romrell taught us today:
+    - To move game parts to other computers or projects you export it as a package.
+    - Co-routines.
+    - While Loops.
+    - Void functions run all at once.
+    - A function could be called a routine, a coroutine is something that is run besides it.
+    - Made the AddForceBehavior C# Script.
+    - Made a rigidbody jump with an IEnumerator with WaitForSeconds.
+    - Used a while loop to have the block jump a given number of times.
+    - Co-routines can run now, hold, repeat, and stop.
+    - Update Runs, Repeats, and there are no stops.
+    - Made the CoroutineEvents Script.
