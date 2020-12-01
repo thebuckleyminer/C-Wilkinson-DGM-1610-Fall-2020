@@ -1,0 +1,18 @@
+December 1st (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting /Key items Romrell taught us today:
+    - Talked about what the Final Game assignment covers and requires.
+    - Next week will be just review.
+    - The ProBuilder could be causing problems with the AI movement so you can just remove that from the package handler.
+    - You should only have Assets and Project settings in the Git Repo. Else-wise they should be added to the Git ignore.
+    - Another thing you can do is to restore the packages to defaults to make it work if you are having issues.
+    - Added the PlatformController Animation Controller and added it to a platform.
+    - Rearranged windows for animation.
+    - Added MovePlatform Animation.
+    - Made an animation to move the platform forward and backward.
+    - Created AttachOnTrigger Script to parent the platform with the player.
+    - Added tag to ground to make it easier to attach.
+    - Added a trigger with the Animate Physics turned on fixed the problem and it is now animated with the platform.
+    - He talked about how we should use Character Controller and Animations for movement.
+    - Animate Child Artwork, and Character Controller the parent object.
+    - Told us that Unity.com/learn is much better then Youtube.
+    - Created the co-routine countdown that was previously talked about.
