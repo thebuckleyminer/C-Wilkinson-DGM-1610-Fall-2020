@@ -1,0 +1,13 @@
+December 3rd (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting /Key items Romrell taught us today:
+    - There are two different animation windows. The Animation tab and the Animator Controller.
+    - Need two scriptiable objects and a monobehavior to get it to work.
+    - Added CubeController as an animator controller to the cube.
+    - You can create animations in the folder.
+    - You can hit record or the add property button.
+    - Made the RotateUp animation.
+    - Renamed them to RotateX and RotateY.
+    - Added a trigger parameter for the animation named X.
+    - Made it so the animation changes states when a sphere is gone through the cube.
+    - Added some jumping code and a trigger.
+    - Talked about what was required for assignment 4.
