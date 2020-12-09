@@ -1,0 +1,9 @@
+December 8th (DGM-1610 Class Meeting)
+Summary of what I accomplished in this Class Meeting /Key items Romrell taught us today:
+    - Started off about talking about issues with NavMesh.
+    - Made a new Level1 scene and saved it in the new levels folder.
+    - Added a ground cube, a player, character controller, and character mover script.
+    - Added empty that will get the Vector three of the starting location.
+    - Made a LevelLoader Scriptable Object C# script.
+    - Created multiple levels to to move from one to another.
+    - A few other tiny review topics.
