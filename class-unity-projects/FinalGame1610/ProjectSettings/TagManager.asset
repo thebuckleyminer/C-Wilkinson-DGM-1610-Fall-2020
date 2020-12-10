@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -13,20 +14,20 @@ TagManager:
   - UI
   - 
   - 
+  - Player Layer
   - 
   - 
   - 
+  - Player Interaction Layer
+  - 
+  - Ai Layer
+  - 
+  - AI Interaction Layer
+  - 
+  - All Interactions Layer
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - NO Interaction Layer
   - 
   - 
   - 
